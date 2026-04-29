@@ -1,0 +1,16 @@
+cv_proj/
+├── data/                               # Raw datasets
+├── results/                            # Saved inference maps and images
+├── analysis_modules/                   # Core Python modules (Computation)
+│   ├── __init__.py
+│   ├── evaluator.py                    # Heavy PyTorch inference & GC fixes
+│   ├── helper.py                       # Image loading & transformations
+│   ├── physics_viz.py                  # MaxRF Math & Gradients
+│   ├── fft_viz.py                      # Frequency domain analysis
+│   ├── custom_viz.py                   # Custom smartphone dataset viz
+│   └── visualizer.py                   # Matplotlib plotting wrappers
+└── notebooks/                          # Lightweight Jupyter Dashboards (Presentation)
+    ├── 01_Benchmark_Evaluation.ipynb   # (Formerly SIRR_Exp.ipynb)
+    ├── 02_Physics_and_MaxRF.ipynb      # (Formerly SIRR_Exp2/3.ipynb)
+    ├── 03_Frequency_Domain.ipynb       # (Formerly SIRR_Exp1.ipynb)
+    └── 04_Custom_Smartphone_Data.ipynb # (Formerly SIRR_Exp4.ipynb)
