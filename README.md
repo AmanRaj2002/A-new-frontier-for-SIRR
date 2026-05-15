@@ -1,5 +1,5 @@
 # A-new-frontier-for-SIRR
-This project is a part of my course Computer Vision(CVSN) offered by Prof. Kavita Sutar. It is jointly done by [Dr. Pratiksha Shingavekar](https://pratikshaskar.wixsite.com/shingavekar) and me
+This project is a part of my course Computer Vision(CVSN) offered by Prof. Kavita Sutar. It is jointly done by me and [Dr. Pratiksha Shingavekar](https://pratikshaskar.wixsite.com/shingavekar).
 
 # Problem Statement and its ill-posed nature
 Given a single image $\bf{I}$ captured through a reflective surface (like glass), estimate:  
